@@ -7,8 +7,8 @@ from datetime import datetime
 
 # ============ НАСТРОЙКИ ============
 TOKEN = os.getenv("VK_TOKEN")
-GROUP_ID = int(os.getenv("GROUP_ID", 242006213))
-MAIN_OWNER = int(os.getenv("MAIN_OWNER", 889701916))
+GROUP_ID = int(os.getenv("GROUP_ID", 242119738))
+MAIN_OWNER = int(os.getenv("MAIN_OWNER", 84097616))
 if not TOKEN: raise SystemExit("❌ Не задан VK_TOKEN!")
 
 _owners_env = os.getenv("VK_OWNERS", "")
